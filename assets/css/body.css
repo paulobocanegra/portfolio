@@ -59,7 +59,8 @@
 }
 
 .about-image{
-    margin-top: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
 	transition: 1s;
     display:flex;
     /* height:100%;
@@ -71,6 +72,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
+}
+
+#gif{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(1.1);
+    background-color: #000;
 }
 
 @media only screen and (max-width: 375px) {

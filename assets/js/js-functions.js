@@ -1,5 +1,15 @@
 let buyers = document.getElementById("buyers")
 let community = document.getElementById("community")
+let aboutSection = document.getElementById("about")
+
+
+// let flight = document.getElementById("about-image")
+// flight.addEventListener("click", () => {
+//     flight.innerHTML = `<iframe src="https://giphy.com/embed/9eo6uX7FcxJFjqdfOl" width="480" height="270" class="giphy-embed" id="gif"
+//     allowFullScreen></iframe>`
+//     flight.style.backgroundImage = "none"
+//     aboutSection.appendChild(blocker1)
+// })
 
 
 // function renderBuyerInfo(){
@@ -70,9 +80,22 @@ function showSlides(n) {
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        document.getElementById("about-image").style.borderRadius = "50%";
+    let flight = document.getElementById("about-image")
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        flight.style.borderRadius = "50%";
     } else {
         document.getElementById("about-image").style.borderRadius = "0%";
     }
 }
+
+// let typeIn = document.getElementById("type-in")
+// let words = ["Software Developer", "Pilot", "Problem Solver", ]
+// let word = ""
+
+
+// function typer(){
+//     let count = 0;
+//     let demo = "AdventureKidpassword";
+//     typeIn.innerHTML = ""
+
+// }
