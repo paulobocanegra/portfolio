@@ -65,7 +65,7 @@
     display:flex;
     /* height:100%;
     width:50%; */
-    height:500px;
+    height:470px;
     width:500px;
     background-image: url("/images/bolivia_flight.png");
     /* transform: scale(0.5); */
@@ -347,7 +347,7 @@ img {vertical-align: middle}
 
 @media only screen and (max-width: 375px) {
     .slideshow-container{
-        max-height: 360px;
+        max-width: 70vw;
         animation: none;
         padding-bottom: 5px;
     }
