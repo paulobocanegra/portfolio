@@ -39,6 +39,9 @@
 }
 
 @media only screen and (max-width: 375px) {
+    .about-wrapper{
+        justify-content: flex-start;
+    }
 
     .about-section{
         display: flex;
@@ -53,6 +56,27 @@
 
     .about-text > p{
         font-size: 20px;
+        line-height: 29px;
+        text-justify: newspaper;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text{
+        width: 90vw;
+        margin-right: 0px;
+    }
+
+    .about-text > p{
+        font-size: 15px;
         line-height: 29px;
         text-justify: newspaper;
         margin-top: 5px;
@@ -76,13 +100,13 @@
     cursor: pointer;
 }
 
-#gif{
+/* #gif{
     height: 100%;
     width: 100%;
     border-radius: 50%;
     transform: scale(1.1);
     background-color: #000;
-}
+} */
 
 @media only screen and (max-width: 375px) {
 
@@ -91,48 +115,34 @@
     }
 }
 
+@media only screen and (max-height: 812px) {
+    .about-image {
+        visibility: hidden;
+    }
 
-/* MECHANICS SECTION */
-.mechanics-wrapper{
-    height: 97%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* background-image: url("/images/blockchainmain.jpg"); */
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.mechanics-section{
-    width: 70vw;
-    min-height: 550px;
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    padding:50px;
-    box-shadow: 0px 0px 4px rgba(0,0,0,30%);
-    border-radius:0px 0px 14px 14px;
-}
-
-@media only screen and  (max-width: 375px) { 
-	.mechanics-section {
-        width: 95vw;
-        min-height: 500px;
-        display: flex;
-        flex-direction: column;
-        flex-direction: column;
-        padding: 50px;
-        box-shadow: 0px 0px 4px rgb(0 0 0 / 30%);
-        border-radius: 0px 0px 10px 10px;
+    .about-wrapper{
+        height: 60vh;
     }
 }
 
-.mechanics-bottom > a {
-    text-decoration: none;
+@media only screen and (max-width: 768px) {
+
+    .about-image{
+        margin-top: -40px;
+        margin-left: 20px;
+        transition: 1s;
+        display:flex;
+        height:470px;
+        width:500px;
+        transform: scale(0.6);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
 }
+
+
 
 .title{
     color: whitesmoke;
@@ -163,140 +173,6 @@
     color: white;
     text-shadow: 8px 8px 4px rgb(240, 159, 19);
     
-}
-
-
-.mechanics-image{
-    margin: 30px;
-    background-image: url("/images/apocalypse.jpg");
-    background-size: contain;
-    width:50%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-@media only screen and  (max-width: 375px) { 
-	.mechanics-image {
-    /* margin: 10px; */
-    background-image: url(/images/gold.jpg);
-    background-size: contain;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    display:none;
-    /* height: 99px; */
-}
-
-}
-
-.mechanics-text{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-@media only screen and  (max-width: 375px) { 
-	.mechanics-text {
-    width: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    text-align: center;
-}
-}
-
-
-.mechanics-text > p{
-    color: black;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    margin: 30px;
-    font-size: 30px;
-    font-family: 'Barlow', sans-serif;
-    line-height: 43px;
-}
-
-@media only screen and  (max-width: 375px) { 
-	.mechanics-text > p {
-    color: black;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    /* margin: 60px; */
-    font-size: 22px;
-    font-family: 'Barlow', sans-serif;
-    line-height: 35px;
-    width:100%;
-}
-}
-
-.button-toggle{
-    display: flex;
-    flex-direction: row;
-    height: fit-content;
-}
-
-@media only screen and (max-width: 375px) {
-    .button-toggle{
-        width:100%;
-        margin:5px;
-        justify-content: center;
-    }
-}
-
-.mechanics-bottom{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.disclaimer-button .mechanics-button{
-    width: 50%;
-    margin: 50px 0px 0px 0px;
-    color: black;
-}
-
-.mechanics-foot{
-    color: black;
-    margin: 0px 0px 20px 0px;
-}
-
-@media only screen and (max-width: 375px) {
-    .mechanics-foot{
-        width: 90vw;
-        font-family: 'Barlow', sans-serif;
-    }
-}
-
-.button-switches{
-    /* margin-bottom: 10px; */
-    height: 60px;
-    width: 35vw;
-    background-color: rgb(24, 21, 21);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px 0px 0px 0px;
-    font-family: 'Anton', sans-serif;
-    font-size: 22px;
-    letter-spacing: 5px;
-    cursor: pointer;
-    outline: none;
-}
-
-.button-switches:last-child{
-      border-radius: 0px 20px 0px 0px;
-}
-
-@media only screen and (max-width: 375px) {
-    .button-switches{
-        width: 47%;
-        /* margin:5px; */
-    }
 }
 
 
@@ -505,6 +381,19 @@ img {vertical-align: middle}
     justify-content: center;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .tokenomics-section{
+    width: 70vw;
+    display: grid;
+    grid-template-rows: repeat(2,200px);
+    grid-template-columns: repeat(2,185px);
+    align-content: center;
+    justify-content: center;
+    }
+}
+
+
 .feature{
     width: 198px;
     height: 198px;
@@ -627,6 +516,22 @@ img {vertical-align: middle}
         height:180px;
         width:180px;
         transform:scale(.8)
+    }
+
+    .feature:hover{
+        transform:scale(0.9);
+        color: transparent;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .feature{
+        margin:2px;
+        height:180px;
+        width:180px;
+        transform:scale(.9)
     }
 
     .feature:hover{

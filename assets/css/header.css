@@ -85,6 +85,12 @@ body{
     }
 }
 
+/* @media only screen and (max-width: 768px) {
+    .hero-wrapper{
+      height:89vh;
+    }
+} */
+
 
 
 .hero-image{
@@ -98,6 +104,13 @@ body{
   .hero-image{
     height: 200px;
     width: 200px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-image{
+    height: 250px;
+    width: 250px
   }
 }
 
@@ -123,9 +136,20 @@ body{
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 50px;
-    text-shadow: 2px 2px 2px black;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .roledex-container{
+    margin-top: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 55px;
+  }
+}
+
+
 
 .roledex{
     display: flex;
@@ -239,6 +263,12 @@ body{
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .hero-button-wrapper{
+    flex-wrap: wrap;
+  }
+}
+
 .hero-button{
   margin: 12px;
   height: 55px;
@@ -262,6 +292,14 @@ body{
 }
 
 @media only screen and (max-width: 375px) {
+  .hero-button{
+    font-size: 19px;
+    height: 60px;
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .hero-button{
     font-size: 19px;
     height: 60px;
