@@ -96,8 +96,8 @@ body{
 
 @media only screen and (max-width: 375px) {
   .hero-image{
-    height: 150px;
-    width:150px
+    height: 200px;
+    width: 200px
   }
 }
 
@@ -151,6 +151,10 @@ body{
 }
 
 @media only screen and (max-width: 375px) {
+  .changing-word{
+    margin-left: 5px;
+  }
+
   .rotating-words{
     padding-right: 4px;
   }
