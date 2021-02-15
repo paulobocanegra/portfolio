@@ -45,8 +45,8 @@ footer > a {
 }
 
 .hero-button-top:hover{
-  background-color: whitesmoke;
-  color: rgba(18, 92, 92);
+  background-color: #ca6f33a1;
+  color: whitesmoke;
   border: 4px solid rgba(106, 129, 129, 0.76);
 }
 

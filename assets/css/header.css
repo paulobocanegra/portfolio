@@ -263,7 +263,7 @@ body{
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .hero-button-wrapper{
     flex-wrap: wrap;
   }
@@ -272,7 +272,7 @@ body{
 .hero-button{
   margin: 12px;
   height: 55px;
-  width: 120px;
+  width: 110px;
   background-color: rgba(125, 250, 250, 0.507);;
   border: 4px solid rgba(123, 248, 248, 0.76);
   display: flex;
@@ -297,16 +297,16 @@ body{
 
 @media only screen and (max-width: 375px) {
   .hero-button{
-    font-size: 19px;
-    height: 60px;
-    width: 130px;
+    /* font-size: 19px; */
+    height: 55px;
+    width: 110px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .hero-button{
-    font-size: 19px;
-    height: 60px;
-    width: 130px;
+    /* font-size: 19px; */
+    height: 55px;
+    width: 110px;
   }
 }
