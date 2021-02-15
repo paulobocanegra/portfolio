@@ -47,7 +47,7 @@ body{
     
 }
 
-@media only screen and  (max-width: 375px) { 
+@media only screen and  (max-width: 414px) { 
 	.links{
 		    display: flex;
     justify-content: space-evenly;
@@ -81,7 +81,7 @@ body{
 
 @media only screen and (max-width: 375px) {
     .hero-wrapper{
-      height:89vh;
+      height:55em;
     }
 }
 
