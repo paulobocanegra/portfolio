@@ -73,7 +73,7 @@ body{
     background-image: url("/images/lima-peru.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-attachment: fixed;
     opacity: 0.8;
     /* background:linear-gradient(transparent,rgb(54, 1, 1),rgb(82, 2, 2), rgb(148, 4, 4), rgb(163, 42, 5), rgb(240, 159, 19)) */
@@ -82,7 +82,7 @@ body{
 @media only screen and (max-width: 375px) {
     .hero-wrapper{
       height:55em;
-      background-size: auto;
+      background-size: cover;
     }
 }
 
