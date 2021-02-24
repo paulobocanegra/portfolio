@@ -54,6 +54,11 @@ body{
     width: 100%;
     font-size: 14px;
 	}
+
+   .hero-banner{
+    margin-top: 0px;
+  }
+
 }
 
 .hero-button-wrapper > a{
@@ -113,6 +118,8 @@ body{
     height: 250px;
     width: 250px
   }
+
+  
 }
 
 .rotating-words-wrapper{
@@ -125,7 +132,7 @@ body{
     margin-top: 40px;
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     font-size:95px;
     text-shadow: 5px 6px 5px black;
 }
