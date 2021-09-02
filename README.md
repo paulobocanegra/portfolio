@@ -1,1 +1,9 @@
-ALL HAIL DOGIRA
+From a pilot’s perspective, the idea that a chain of error leads to a dead end is in the core of the decision making process. When transitioning to software development, I immediately recognized the importance of semantic code and its impact on reducing error. I could not help but to love it’s elegance, as well as the creative freedom inherent in development. In a similar way, working with frameworks and whiteboarding resembles the peace of mind from a good pre-flight and a detailed flight plan. Over the last year, I’ve been sharpening my programming skills, focused on JavaScript, Ruby on Rails, and React. During this process, I was accepted to AppAcademy’s in-person full stack software engineering bootcamp (~5% acceptance rate) and I graduated with two full-stack web applications.
+
+The project I am most passionate about is a recent full-stack ecommerce platform I built using Node.js, Ruby on Rails, JavaScript, React and Redux, in order to recreate key features of the well known “LUSH”  (link: http://bubbles-lush.herokuapp.com/). I connected the Ruby on Rails backend to AWS (Amazon Web Services) S3 to store multiple images for each product, while keeping the information secured with AWS IAM. Furthermore, I utilized foreign keys to normalize the front end state. In addition, I shaped specific slices of the state on each container’s mapStateToProps, to provide relevant data from the Redux store to every React component.  I am also experienced with pure JavaScript which I have exhibited by creating a Point of Sale (POS) software that trains employees to become more efficient at data entry (link: https://pos-train.herokuapp.com/).
+
+I have always had a passion for learning and sharing. In addition to polishing my programming skills, I am currently learning astrophysics on my own. Furthermore, I am passionate about problem solving and I enjoy helping others understand concepts I have previously learned. Therefore, I thrive in collaborative environments. As a results oriented self driven engineer, with the skills I am eager to apply in this position, I know I could hit the ground running.
+
+Sincerely,
+
+Paulo Bocanegra

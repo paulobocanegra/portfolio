@@ -47,13 +47,18 @@ body{
     
 }
 
-@media only screen and  (max-width: 375px) { 
+@media only screen and  (max-width: 414px) { 
 	.links{
 		    display: flex;
     justify-content: space-evenly;
     width: 100%;
     font-size: 14px;
 	}
+
+   .hero-banner{
+    margin-top: 0px;
+  }
+
 }
 
 .hero-button-wrapper > a{
@@ -62,7 +67,7 @@ body{
 
 .hero-wrapper{
     width: 100vw;
-    height:98vh;
+    height:56em;
     /* height:900px; */
     /* update height */
     display:flex;
@@ -81,15 +86,16 @@ body{
 
 @media only screen and (max-width: 375px) {
     .hero-wrapper{
-      height:89vh;
+      height:55em;
+      background-size: cover;
     }
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 812px) {
     .hero-wrapper{
-      height:89vh;
+      background-image: url("/images/lima-smaller.jpg");
     }
-} */
+}
 
 
 
@@ -112,6 +118,8 @@ body{
     height: 250px;
     width: 250px
   }
+
+
 }
 
 .rotating-words-wrapper{
@@ -124,7 +132,7 @@ body{
     margin-top: 40px;
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     font-size:95px;
     text-shadow: 5px 6px 5px black;
 }
@@ -263,7 +271,7 @@ body{
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .hero-button-wrapper{
     flex-wrap: wrap;
   }
@@ -272,7 +280,7 @@ body{
 .hero-button{
   margin: 12px;
   height: 55px;
-  width: 120px;
+  width: 110px;
   background-color: rgba(125, 250, 250, 0.507);;
   border: 4px solid rgba(123, 248, 248, 0.76);
   display: flex;
@@ -286,6 +294,10 @@ body{
   box-shadow:0 10px 20px rgba(0, 0, 0, 0.9), 0 6px 6px rgba(0, 0, 0, 0.9);
 }
 
+
+
+
+
 .hero-button:hover{
   background-color: #ca6f33a1;
   color: white;
@@ -293,16 +305,16 @@ body{
 
 @media only screen and (max-width: 375px) {
   .hero-button{
-    font-size: 19px;
-    height: 60px;
-    width: 130px;
+    /* font-size: 19px; */
+    height: 55px;
+    width: 110px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .hero-button{
-    font-size: 19px;
-    height: 60px;
-    width: 130px;
+    /* font-size: 19px; */
+    height: 55px;
+    width: 110px;
   }
 }

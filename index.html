@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <!-- font-family: 'Nunito', sans-serif; -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
@@ -54,6 +58,7 @@
         <div class="links">
             <a href="#home" class="header-links">HOME</a>
             <a href="#about" class="header-links">ABOUT</a>
+            <a href="#tokenomics" class="header-links">SKILLS</a>
             <a href="#global-functions" class="header-links">PROJECTS</a>
         </div>
         <!-- <div class="logo">Logo</div> -->
@@ -70,9 +75,9 @@
                     <!-- <div id="type-in">Hello</div> -->
                     <div class="rotating-words-wrapper">
                         <div class="rotating-words">
-                            <h1 class="changing-word">RIDER</h1>
-                            <h1 class="changing-word">PILOT</h1>
-                            <h1 class="changing-word">CODER</h1>
+                            <h1 class="changing-word">rider</h1>
+                            <h1 class="changing-word">pilot</h1>
+                            <h1 class="changing-word">coder</h1>
                         </div>
                     </div>
                     
@@ -80,9 +85,9 @@
             </div>
         </div>
         <div class="hero-button-wrapper">
-            <a href="https://github.com/paulobocanegra" target="_blank">
+            <a href="/assets/paulo-bocanegra-resume.pdf" download="paulo_bocanegra_resume" target="_blank">
                 <div class="hero-button">
-                    GITHUB
+                    RESUME
                 </div>
             </a>
             <a href="https://www.linkedin.com/in/paulo-bocanegra-a89b641b9/" target="_blank">
@@ -90,7 +95,12 @@
                     LINKEDIN
                 </div>
             </a>
-            <a href="mailto:paulobocanegra@gmail.com" target="_blank" rel="noopener noreferrer" target="_blank">
+            <a href="https://github.com/paulobocanegra" target="_blank">
+                <div class="hero-button">
+                    GITHUB
+                </div>
+            </a>
+            <a href="mailto:paulobocanegra@gmail.com" target="_blank" rel="noopener noreferrer">
                 <div class="hero-button">
                     EMAIL
                 </div>
@@ -108,12 +118,12 @@
                 <p>
                 Born in Lima, Peru. A Software Developer with a background in Aviation. I have experience with Ruby on Rails,
                 JavaScript, React, and
-                Redux. <br> Bilingual: English, Spanish<br>
+                Redux. <br> Bilingual: English, Spanish.<br><br>
 
                 During flight, the fact that a chain of error leads to a dead end is in the core of the decision making
-                process. When transitioning to software development, I immediately recognized the importance of semantic code and its
-                impact on reducing error. I could not help but to love it’s elegance, as well as the creative freedom
-                inherent in programming.          
+                process. When transitioning to software development, I immediately recognized the importance of semantic code and the
+                impact on reducing error. I could not help but to love its elegance, as well as the creative freedom
+                inherent in programming. <br> <br>
                 I am passionate about problem solving, web development, and teamwork.<br>                
             </div>
             <a href="https://www.youtube.com/watch?v=kKE3VJAB4SE&ab_channel=PauloBocanegra" target="_blank">
@@ -174,18 +184,6 @@
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext"></div>
-                    <a href="https://dogira.on.fleek.co/" target="_blank">
-                        <img src="/images/dogirasite.png" style="width:100%">
-                    </a>
-                    <div class="text">
-                        DOGIRA WEBSITE <br>
-                        Single page website for a token based blockchain social experiment tailored for the client's needs
-                        <br>
-                        Technologies: JavaScript, HTML5, CSS.
-                    </div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext"></div>
                     <a href="http://yalp-yalp.herokuapp.com/" target="_blank">
                         <img src="/images/yalp_main.png" style="width:100%">
                     </a>
@@ -207,7 +205,18 @@
                         <br>
                         Technologies: JavaScript, HTML5, CSS3.</div>
                 </div>             
-
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <a href="https://dogira.on.fleek.co/" target="_blank">
+                        <img src="/images/dogirasite.png" style="width:100%">
+                    </a>
+                    <div class="text">
+                        DOGIRA WEBSITE <br>
+                        Single page website for a token based blockchain social experiment tailored for the client's needs
+                        <br>
+                        Technologies: JavaScript, HTML5, CSS.
+                    </div>
+                </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -230,10 +239,14 @@
     
 </body>
 <footer>
-    <div>
+    <div class="thanks">
         Thank you for stopping by! <br>
-        
     </div>
+    <a href="#home">
+        <button class="hero-button-top">
+            TOP 
+        </button>
+    </a>
 </footer>
 <script src="/assets/js/js-functions.js"></script>
 </html>
