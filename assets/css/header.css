@@ -140,7 +140,7 @@ body{
 @media only screen and (max-width: 375px) {
   .roledex-container{
     margin-top: 40px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 50px;
@@ -150,7 +150,7 @@ body{
 @media only screen and (max-width: 768px) {
   .roledex-container{
     margin-top: 40px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 55px;

@@ -249,7 +249,7 @@ html{
     .about-image{
         margin-top: -40px;
         margin-left: 20px;
-        transition: 1s;
+        transition: 0.1s;
         display:flex;
         height:470px;
         width:500px;
