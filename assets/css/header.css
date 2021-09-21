@@ -130,9 +130,9 @@ body{
 .roledex-container{
     /* border: 3px solid teal; */
     margin-top: 40px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
     font-weight: bolder;
-    letter-spacing: 6px;
+    letter-spacing: 10px;
     font-size:95px;
     text-shadow: 5px 6px 5px black;
 }
@@ -174,7 +174,7 @@ body{
 .rotating-words{
     line-height: 160px;
     transform: translateY(-225px);
-    animation: word-spin 10s linear infinite ;
+    animation: word-spin 7s linear infinite ;
 }
 .changing-word{
   margin-left: 15px;
