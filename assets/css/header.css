@@ -75,7 +75,7 @@ body{
     align-items:center;
     /* border: 5px solid black; */
     flex-direction:column;
-    background-image: url("/images/lima-peru.jpg");
+    background-image: url("images/lima-peru.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
