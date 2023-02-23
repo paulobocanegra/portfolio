@@ -9,14 +9,15 @@ html{
     /* justify-content:center; */
     flex-direction:column;
     align-items:center;
-    height: 55em;
+    height: fit-content;
+    padding-bottom: 12vh;
 }
 
 
 
 @media only screen and (max-width: 1207px) {
     .about-wrapper{
-        height: 47em;
+        /* height: 47em; */
         justify-content: flex-start;
     }
 }
@@ -24,54 +25,49 @@ html{
 
 @media only screen and (max-width: 608px) {
     .about-wrapper{
-        height: 47em;
+        /* height: 47em; */
         justify-content: flex-start;
     }
 }
 
 @media only screen and (max-width: 544px) {
     .about-wrapper{
-        height: 55em;
+        /* height: 55em; */
         justify-content: flex-start;
     }
 }
 
 @media only screen and (max-width: 461px) {
     .about-wrapper{
-        height: 58em;
+        /* height: 58em; */
         justify-content: flex-start;
     }
 }
 
 @media only screen and (max-width: 420px) {
     .about-wrapper{
-        height: 60em;
+        /* height: 60em; */
         justify-content: flex-start;
     }
 }
 
 @media only screen and (max-width: 380px) {
     .about-wrapper{
-        height: 63em;
+        /* height: 63em; */
         justify-content: flex-start;
     }
 }
 
 .about-section{
-    /* height: 55vh; */
-    /* height: 55vh; */
-    /* margin:20px; */
-    width:70vw;
+    width:85vw;
     display:flex;
     flex-direction:row;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 .about-text{
+    width: 90vw;
     display:flex;
-    width: 50%;
-    margin-right: 60px;
 }
 
 .about-text > p{
@@ -80,7 +76,7 @@ html{
     align-items: center;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 @media only screen and (max-width: 375px) {
@@ -91,14 +87,7 @@ html{
         align-items: center;
     }
 
-    .about-text{
-        width: 90vw;
-        margin-right: 0px;
-    }
-
     .about-text > p{
-        font-size: 20px;
-        line-height: 29px;
         text-justify: newspaper;
         margin-top: 5px;
     }
@@ -115,13 +104,10 @@ html{
     }
 
     .about-text{
-        width: 40vw;
         margin-right: 60px;
     }
 
     .about-text > p{
-        font-size: 20px;
-        line-height: 35px;
         text-justify: newspaper;
         margin-top: 5px;
     }
@@ -135,17 +121,13 @@ html{
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 80vw;
     }
 
     .about-text{
-        width: 55vw;
         margin-right: 30px;
     }
 
     .about-text > p{
-        font-size: 20px;
-        line-height: 35px;
         text-justify: newspaper;
         margin-top: 5px;
     }
@@ -161,15 +143,11 @@ html{
     }
 
     .about-text{
-        width: 40em;
         margin-right: 0px;
-        /* margin-bottom: 60px; */
     }
 
     .about-text > p{
-        font-size: 20px;
-        line-height: 35px;
-        text-justify: newspaper;
+        /* text-justify: newspaper; */
         margin-top: 5px;
     }
 }
@@ -183,36 +161,17 @@ html{
     }
 
     .about-text{
-        width: 90%;
+        /* width: 90%; */
         margin-right: 0px;
     }
 
     .about-text > p{
-        font-size: 18px;
         line-height: 29px;
         text-justify: newspaper;
         margin-top: 5px;
     }
 }
 
-
-
-.about-image{
-    margin-top: 15px;
-    margin-left: 20px;
-	transition: 1s;
-    display:flex;
-    /* height:100%;
-    width:50%; */
-    height:470px;
-    width:500px;
-    background-image: url("/images/bolivia_flight.png");
-    /* transform: scale(0.5); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-}
 
 /* #gif{
     height: 100%;
@@ -221,52 +180,6 @@ html{
     transform: scale(1.1);
     background-color: #000;
 } */
-
-@media only screen and (max-width: 1243px) {
-
-    .about-image{
-        height: 300px;
-        width: 350px;
-        margin-left: 40px;
-    }
-}
-
-@media only screen and (max-width: 1207px) {
-
-    .about-image{
-        visibility: hidden;
-    } 
-}
-
-@media only screen and (max-width: 1100px) {
-    .about-image {
-        visibility: hidden;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-
-    .about-image{
-        margin-top: -40px;
-        margin-left: 20px;
-        transition: 0.1s;
-        display:flex;
-        height:470px;
-        width:500px;
-        transform: scale(0.6);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        cursor: pointer;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-
-    .about-image{
-        visibility: hidden;
-    }
-}
 
 
 
